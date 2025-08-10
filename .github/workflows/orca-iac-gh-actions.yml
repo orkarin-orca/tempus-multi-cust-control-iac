@@ -1,7 +1,7 @@
 name: Sample Orca IaC Scan Workflow
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "single_file" ]
     paths:
       - '**.tf'
       - '**.json'
