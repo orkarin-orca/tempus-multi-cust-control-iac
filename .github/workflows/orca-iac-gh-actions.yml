@@ -9,7 +9,7 @@ on:
       - '**.yaml'
       
   pull_request:
-    branches: [ "main" ]
+    #branches: [ "main" ]
     paths:
       - '**.tf'
       - '**.json'
@@ -21,7 +21,7 @@ permissions:
   actions: read
   contents: read
   checks: write
-  issues: write
+  issues: writeס;
   pull-requests: write
   security-events: write
   statuses: write
